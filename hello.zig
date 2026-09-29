@@ -5,7 +5,7 @@ var y: i32 = x + 55;
 const x: i32 = 11;
 
 pub fn main() void {
-    std.debug.print("Hello, world {}\n", .{y});
+    std.debug.print("two numbers: x = {d}, y = {d}\n", .{x, y});
 }
 
 test "run main" {
